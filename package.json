@@ -1,0 +1,29 @@
+{
+  "name": "modul11promise-api",
+  "version": "1.0.0",
+  "description": "Модуль 11. Занятие 22. Промисы",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VasylBarna/modul11promise-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VasylBarna/modul11promise-api/issues"
+  },
+  "homepage": "https://github.com/VasylBarna/modul11promise-api#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "dependencies": {
+    "bootstrap.native": "^3.0.13",
+    "lodash.throttle": "^4.1.1"
+  }
+}
