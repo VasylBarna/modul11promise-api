@@ -14,6 +14,7 @@ const promise = new Promise((resolve, reject) => {
       resolve('Промис выполнился успешно, с результатом (исполнен, fulfilled)');
     }
 
+                      
     reject('Промис выполнился с ошибкой (отклонён, rejected)');
   }, 1000);
 });
